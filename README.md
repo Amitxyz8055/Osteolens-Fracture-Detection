@@ -62,4 +62,4 @@ python client_ui.py
 MIT, see `LICENSE`.
 
 ## Paper and slides
-Research paper and presentation: `[LINK OR FILE NAME]`.
+Research paper: [research_paper.pdf](research_paper.pdf) · Presentation: [presentation.pdf](presentation.pdf)
