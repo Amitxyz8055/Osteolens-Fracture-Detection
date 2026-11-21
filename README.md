@@ -56,7 +56,7 @@ python client_ui.py
 [Architecture](docs/ARCHITECTURE.md) · [Protocol](docs/PROTOCOL.md) · [Methodology](docs/METHODOLOGY.md) · [Results](docs/RESULTS.md) · [Reproduce](docs/REPRODUCE.md)
 
 ## Tests
-`pip install pytest numpy pillow && pytest -q` (no model files needed).
+`pip install pytest numpy pillow && pytest -q` 
 
 ## License
 MIT, see `LICENSE`.
