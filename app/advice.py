@@ -1,0 +1,56 @@
+"""Pre-written assistant comments (general information only, no diagnosis, no medicine doses)."""
+
+FRACTURE = [
+    "The scan flags a possible fracture. Please get this X-ray checked by a doctor or an orthopedic specialist soon, ideally today.",
+    "This looks like it may need urgent attention. Try not to use or put weight on the injured part until a doctor has seen it.",
+    "Keep the injured area as still as you can. A simple support or splint can help, but do not try to straighten or push the bone back.",
+    "While you arrange to see a doctor, gently apply a cold pack wrapped in a cloth for short periods to help with swelling. Never put ice directly on the skin.",
+    "If you can, raise the injured limb above heart level to reduce swelling while you wait for medical care.",
+    "Go to an emergency department right away if the bone has broken the skin, the shape looks clearly bent, or the area turns pale, blue or numb.",
+    "Take off rings, watches or tight shoes near the injury before swelling increases, because they can become hard to remove later.",
+    "Please do not massage or press on the painful spot. It can make the injury worse.",
+    "Bring this X-ray, or the original film or file, to your doctor. They can confirm the result and decide on a cast, splint or other treatment.",
+    "For pain relief, ask a doctor or pharmacist what is safe for you. Do not guess a medicine or amount on your own.",
+    "If this is a child, get it checked quickly. Children's bones are still growing and need a doctor's care.",
+    "Tell the doctor about any medicines you take and any health conditions. It helps them plan your treatment safely.",
+    "A fracture that is treated early usually heals better. Please do not wait for the pain to settle before getting it examined.",
+    "Many fractures need only a cast or a splint and some rest. A doctor will tell you what is right for your case.",
+    "If you feel pins and needles, strong pain that keeps getting worse, or cannot move your fingers or toes, seek emergency care immediately.",
+    "Avoid eating a big meal until you have been seen, in case the doctor decides on a procedure. This is only a precaution, so ask the clinic.",
+    "This tool is a screening aid and can be wrong. Only a doctor, looking at the real X-ray and examining you, can confirm a fracture.",
+    "Plan for help at home for a while. Simple tasks may be hard until the injury is treated and starts to heal.",
+    "After treatment, doctors often suggest a follow-up X-ray to check healing. Keep those appointments.",
+    "Please do not rely on this result alone. If you are in a lot of pain, take it as a sign to see a doctor now.",
+]
+
+NO_FRACTURE = [
+    "No fracture was flagged in this image. This tool can miss small or hidden cracks, so please do not treat this as a clean bill of health.",
+    "Even without a flagged fracture, you can still have a sprain, strain or other injury. If the pain or swelling continues, see a doctor.",
+    "If you cannot put weight on the area or move it normally, get it examined by a doctor even though this scan looked clear.",
+    "Hairline fractures are sometimes hard to see on a first X-ray. If pain continues for a few days, a doctor may repeat the scan.",
+    "Rest the area for now and avoid heavy activity until the pain settles. Check with a doctor if it does not improve.",
+    "A cold pack wrapped in a cloth, used for short periods, can help with swelling after a minor injury. Never put ice directly on the skin.",
+    "Raising the injured limb when you sit or lie down can help reduce swelling.",
+    "Please see a doctor if you notice numbness, tingling, a change in colour, or pain that keeps getting worse.",
+    "The result looks reassuring, but it comes from a study project. Ask a doctor to look at the original X-ray if you are worried.",
+    "Pain without a visible fracture can come from ligaments, tendons or muscles. A doctor can examine these, as an X-ray does not show them well.",
+    "Do not ignore ongoing pain just because this scan was clear. Persistent symptoms deserve a proper medical check.",
+    "If there was a strong impact or a fall, it is still wise to have a doctor look at the injury even if this scan found nothing.",
+    "Gentle movement, when the pain allows it, can keep the joint from getting stiff. Stop if it hurts more and ask your doctor.",
+    "Keep the X-ray image for your records. It is useful if you need to compare it with a later scan.",
+    "If this is a child who keeps complaining of pain or is not using the limb, please have a doctor check them. Children can be hard to assess.",
+    "A clear result on an unclear or rotated image can be less reliable. A new, well-positioned X-ray may give a better picture.",
+    "For pain relief, ask a doctor or pharmacist what is safe for you. Do not guess a medicine or amount on your own.",
+    "Good news so far, but please remember this tool can make mistakes. Trust a doctor's examination over this result.",
+    "If the injured area looks bent, swollen a lot, or very painful to touch, do not wait. See a doctor in person.",
+    "Stay alert for new symptoms over the next few days, and go back to a doctor if anything changes or gets worse.",
+]
+
+UNSUPPORTED = [
+    "This image looks different from the X-rays this model was trained on, so I will not give a fracture answer.",
+    "Please upload a clean X-ray file of the matching body part. Photos of a screen or printed film are usually not reliable.",
+    "Check that you picked the right body part in the dropdown. The model only understands the region it was trained for.",
+    "Pictures with watermarks, text overlays or heavy borders can confuse the model. Try a cleaner, cropped image.",
+    "This study model has mostly seen limb X-rays such as wrist, hand and forearm. Other body parts are not supported yet.",
+    "If you are worried about an injury, please see a doctor. This tool cannot help with images outside its training.",
+]

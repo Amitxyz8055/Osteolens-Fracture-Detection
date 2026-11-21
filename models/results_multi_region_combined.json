@@ -1,0 +1,60 @@
+{
+  "region": "multi_region_combined",
+  "threshold": 0.9425,
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "auc": 0.9995,
+  "sensitivity": 0.9615,
+  "specificity": 1.0,
+  "accuracy": 0.9836,
+  "confusion": {
+    "TN": 384,
+    "FP": 0,
+    "FN": 11,
+    "TP": 275
+  },
+  "n_train": 3116,
+  "n_val": 670,
+  "n_test": 670,
+  "duplicates_removed_from_val_test": true,
+  "label_1": "fracture",
+  "preprocess": "none",
+  "note": "Learning project, not a medical device.",
+  "external": null,
+  "per_dataset": {
+    "dataset 1": {
+      "n": 584,
+      "auc": 1.0,
+      "sensitivity": 0.9712,
+      "specificity": 1.0,
+      "confusion": {
+        "TN": 341,
+        "FP": 0,
+        "FN": 7,
+        "TP": 236
+      }
+    },
+    "dataset 2": {
+      "n": 86,
+      "auc": 0.9854,
+      "sensitivity": 0.907,
+      "specificity": 1.0,
+      "confusion": {
+        "TN": 43,
+        "FP": 0,
+        "FN": 4,
+        "TP": 39
+      }
+    }
+  },
+  "combined": true
+}

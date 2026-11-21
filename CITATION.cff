@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it."
+title: "OsteoLens: a digital radiologist for fracture detection from X-rays"
+authors:
+  - family-names: Meena
+    given-names: Amit
+year: 2026
+license: MIT
